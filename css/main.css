@@ -1,0 +1,19 @@
+/* ES6 examples */
+body {font-size: 0.9em;}
+.gridArea {
+	display: grid;
+	grid-template-columns: 50% 25% 25%;
+	grid-template-areas:
+	"instructions inputs outputs"
+	;
+	gap: 2px;
+}
+
+.instructions {grid-area: instructions; }
+.inputs {grid-area: inputs;}
+.outputs {grid-area: outputs;}
+
+.format {padding: 5px; border-right: thick solid navy; }
+button {padding: 5px; background-color: ivory; color: navy; width: 100%;}
+ul {text-align: left;}
+li {margin-bottom: 3px;}

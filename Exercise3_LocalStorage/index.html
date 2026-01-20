@@ -1,0 +1,34 @@
+<!-- M02-Local Storage: index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Local Storage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="css/main.css" rel="stylesheet">
+<script src="js/localStorage.js"></script>
+</head>
+
+<body onload="createList()">
+	<!--
+		Instructions for createList function on load:
+		- Build an <option> list in the <select> area (id=selectBox) for each student ID in the studentData array
+		- List all data in studentData array in the id=students section
+		- When a student id is selected from drop-down list, save data to Local Storage, display report page
+		- See report page for instructions for report and print option
+	-->
+	<div class="gridArea">
+		<section class="pick">
+			<h2>Select a student based on Student ID to print a payment report:</h2>
+
+			<select id="selectBox" onchange="makeReport()"> </select>
+
+		</section>
+		
+		<section id="students">
+		</section>
+	</div>
+</body>
+</html>
