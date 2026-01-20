@@ -1,0 +1,27 @@
+{	
+	"SheridanData" : {
+		"FullName" : "Shibrah Misbah",
+		"StudentID" : "991593708",
+		"UserName" : "misbahsh",
+		"Program" : "SDNE"	
+	},
+	
+	"Category" : [
+		{"categoryGroup" : "Islamic", "logo" : "allahu.png"},
+		{"categoryGroup" : "Scenery", "logo" : "allahu.png"},
+		{"categoryGroup" : "Minimalistic Portraits", "logo" : "allahu.png" },
+		{"categoryGroup" : "Animals", "logo" : "allahu.png"},
+		{"categoryGroup" : "Marvel", "logo" : "allahu.png"}		
+	],
+	
+	"ArtDetails" : [
+	{
+    "ID": 123,
+    "title": "Unlocking Android",
+    "thumbnailUrl": "Mashallah.png",
+    "longDescription": "Android is an open source mobile phone platform based on the Linux operating system and developed by the Open Handset Alliance, a consortium of over 30 hardware, software and telecom companies that focus on open standards for mobile devices. Led by search giant, Google, Android is designed to deliver a better and more open and cost effective mobile experience.    Unlocking Android: A Developer's Guide provides concise, hands-on instruction for the Android operating system and development tools. This book teaches important architectural concepts in a straightforward writing style and builds on this with practical and useful examples throughout. Based on his mobile development experience and his deep knowledge of the arcane Android technical documentation, the author conveys the know-how you need to develop practical applications that build upon or replace any of Androids features, however small.",
+    "materials": "Acrylic Painting",
+    "category": "Islamic"
+	}
+	]
+}
