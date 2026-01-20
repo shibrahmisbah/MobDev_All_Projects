@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- M01-JSReview -->
+<html>
+<head>
+
+<link href="css/main.css" rel="stylesheet">
+<script src="js/review.js"></script>
+</head>
+
+<body>
+	
+	<div class="gridArea">
+		<section class="instructions format">
+			<h4>.getElementsByClassName / .querySelectorAll</h4>
+			<ul>
+				<li>Use .querySelectorAll to find CSS class <em>inputs</em> and change the background colour to <em>lightblue</em></li>
+				<li>Use .getElementsByClassName to find CSS class <em>instructions</em> and change the background colour to <em>bisque</li>
+			</ul>		
+		</section>	
+
+		<section class="inputs format">
+			<button onclick="classChange()">
+				Change background colour based on CSS class
+			</button>
+		</section>
+		
+		<section class="outputs format" id="output1"></section>
+	</div>
+	<hr>
+	<!-- *********************************************************************************** -->
+
+	<div class="gridArea">
+		<section class="instructions format">
+			<h4>For/Of - Template Literal - getElementById</h4>
+			<ul>
+				<li>Pull the <strong>name</strong> and <strong>ID</strong> from the input boxes and include in the declared variables in the .js file</li>
+				<li>Build a heading line using <em>Template Literal</em> that includes the following in the output area:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<strong>Name / ID - Your Term 4 Courses</strong> - Followed by a horizontal line</li>
+				<li>Use a <em>For/Of loop</em> using <em>Template Literal</em> to traverse the array of courses and display each in a paragraph in the output area in the format:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<strong>Course</strong> - where Course Info is Bold</li>
+			</ul>		
+		</section>	
+
+		<section class="inputs format">
+			<div>
+				<p><em>Enter Your Name:</em> <br>
+					<input name="sname" id="sname" value="Jane Doe"></p>
+
+				<p><em>Enter Your Student Number:</em> <br>
+					<input name="sid" id="sid" value="991123456"></p>
+			</div>
+
+
+			<button onclick="forOf()">
+				Enter your name and ID and click here to display your 4th term courses
+			</button>
+		</section>
+		
+		<section class="outputs format" id="output2"></section>
+	</div>
+	<hr>
+	<!-- *********************************************************************************** -->
+
+	<div class="gridArea">
+		<section class="instructions format">
+			<h4>Arrow Function</h4>
+			<ul>
+				<li>Pull the <strong>term</strong> from the input box below and include in the declared variables in the .js file</li>
+				<li>Create an arrow function that takes the term entered and display the correct number of credits for that term based on declared array in the following format:<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;<strong>Term /term entered/ has /number of credits based on array/ credits</strong>
+				</li>
+			</ul>			
+		</section>
+		<section class="inputs format">
+			<p><em>Enter Term:</em> <input name="term" id="term"></p>
+
+			<button onclick="arrow()">
+				Enter a term and click here to display number of credits for that term
+			</button>
+		</section>
+		
+		<section class="outputs format" id="output3"></section>
+	</div>
+	<hr>
+		<!-- *********************************************************************************** -->
+
+
+	<div class="gridArea">
+		<section class="instructions format">
+			<h4>Classes</h4>
+			<p>Create a Class that includes Course Code / Course Description / Term and populate with Term 4 data and display in the following format: <br>
+				&nbsp;&nbsp;&nbsp;&nbsp;<strong>Course: (course code) / Description: (course description) / Term: (term)</strong>
+			</p>
+		</section>
+
+		<section class="inputs format">
+			<button onclick="classUsed()">
+				Click to display Term 4 Courses based on Class structure
+			</button>
+		</section>
+		
+		<section class="outputs format" id="output4"></section>
+	</div>
+</body>
+</html>

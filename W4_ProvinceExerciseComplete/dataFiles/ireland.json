@@ -1,0 +1,44 @@
+{
+  "country": {
+     "name": "Ireland",
+     "background": "Ireland is an island in the North Atlantic. It is separated from Great Britain to its east by the North Channel, the Irish Sea, and St George's Channel. Ireland is the second-largest island of the British Isles, the third-largest in Europe, and the twentieth-largest on Earth.",
+     "division": [
+        {
+           "capital": "Galway",
+           "city": [
+              "Galway"
+           ],
+           "type": "province",
+           "name": "Connacht",
+           "pic": "connacht.png"
+        },
+        {
+           "capital": "Dublin",
+           "city": [
+              "Dublin"
+           ],
+           "type": "province",
+           "name": "Leinster",
+           "pic": "leinster.png"
+        },
+        {
+          "capital": "Cork",
+          "city": [
+             "Cork"
+          ],
+          "type": "province",
+          "name": "Munster",
+          "pic": "munster.png"
+       },
+      {
+           "capital": "Belfast",
+           "city": [
+              "belfast"
+           ],
+           "type": "province",
+           "name": "Ulster",
+           "pic": "ulster.png"
+        }
+     ]
+  }
+}

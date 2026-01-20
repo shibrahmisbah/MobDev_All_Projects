@@ -1,0 +1,7 @@
+{
+"countryList" : 
+  [
+    {"name": "Canada", "file": "canada.json", "pic": "canada.jpg"},
+    {"name": "Ireland", "file": "ireland.json", "pic": "ireland.jpg"}
+  ]
+}

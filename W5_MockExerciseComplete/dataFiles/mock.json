@@ -1,0 +1,17 @@
+{
+"helpData": 
+	{
+		"helpName": "Jane",
+		"helpAmount": 1200.0000
+	},
+"helpShops": [
+		{"city": "Oakville",
+			"email" : "oakville@helpme.hlp",
+			"logo" : "light.gif"
+		},
+		{"city": "Brampton",
+			"email" : "brampton@helpme.hlp",
+			"logo" : "prog.gif"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+"college": 
+	{
+		"collegeName": "Sheridan",
+		"collegeAddress": "Brampton / Oakville Ontario",
+		"Campuses": [
+			{"campusName": "Trafalgar",
+				"campusCity" : "Oakville",
+				"campusPic" : "trafalgar.png"
+			},
+			{"campusName": "Davis",
+				"campusCity" : "Brampton",
+				"campusPic" : "davis.png"
+			},
+			{"campusName": "HMC",
+				"campusCity" : "Mississauga",
+				"campusPic" : "hmc.png"
+			}			
+		]
+	}
+}
