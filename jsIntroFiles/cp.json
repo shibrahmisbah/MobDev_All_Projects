@@ -1,0 +1,22 @@
+{	
+	"ProgramData" : {
+		"programName": 	"Computer Programming",
+		"shortName": 		"CP",
+		"schedule": 		"16-months/4 terms",
+		"credential": 	"2 year Diploma"
+	},
+	"courses": [
+		{"term": 1, "class": "PROG10082",  "credit": 6, "description" : "OOP - Java 1" },
+		{"term": 1, "class": "SYST10049",  "credit": 3, "description" : "Web Development"  },
+		{"term": 1, "class": "TELE13167",  "credit": 3, "description" : "Intro to Data Comm"  },
+		{"term": 1, "class": "COMM13729",  "credit": 3, "description" : "Art of Tech Comm"  },
+		{"term": 1, "class": "MATH18584",  "credit": 4, "description" : "Computer Math"  },
+		{"term": 1, "class": "CULT10001G", "credit": 3, "description" : "Impact of Culture"  },
+		{"term": 2, "class": "PROG24178",  "credit": 6, "description" : "OOP - Java 2" },
+		{"term": 2, "class": "SYST10199",  "credit": 3, "description" : "Web Programming"  },
+		{"term": 2, "class": "TELE33324",  "credit": 3, "description" : "Data Network Design"  },
+		{"term": 2, "class": "SYST15892",  "credit": 3, "description" : "User Interface Design"  },
+		{"term": 2, "class": "SYST17796",  "credit": 3, "description" : "Fund of Software Design"  },
+		{"term": 2, "class": "SYST13416",  "credit": 3, "description" : "Linux/Unix OS"  }
+	]	
+}

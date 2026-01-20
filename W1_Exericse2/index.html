@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- M02-MOCK index.html -->
+<html>
+<head>
+
+<title>Local Storage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="js/mock.js"></script>
+
+<style>
+	.h3head {color: blue;}
+</style>
+</head>
+
+<body>
+	<!-- 
+			This is a simplified exercise for showing class topics
+			No error checking is included
+	-->
+	<h3>Enter Data to Save to LS</h3>
+	<label for="sname">Enter student name: </label>
+	<input id="sname" type="text" value="Jane Doe">
+	<br>
+	<label for="sid">Enter student number: </label>
+	<input id="sid" type="number" value="991123456">
+
+	<hr>
+	<button id="saveToLS" onclick="saveLS()">Save input data to LS and go to Page2</button>
+	<hr>
+	<section style="display:flex;">
+		<button style="flex:1;" onclick="h3class()">Add style class "h3head" to first h3</button>...
+		<button style="flex:1;" onclick="h3hide()">Hide/Show first h3</button>...
+		<button style="flex:1;" onclick="labelName()">Change any label that contains 'name' to red </button>
+	</section>
+</body>
+</html>

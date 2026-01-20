@@ -1,0 +1,20 @@
+/* MT Review CSS */
+.gridArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "names buttons"
+    "audios ls"
+    "rhymes json"
+  ;
+  gap: 5px;
+  align-items: center;
+}
+
+.names {grid-area: names;}
+.audios {grid-area: audios; background-color: aliceblue;}
+.rhymes {grid-area: rhymes; background: ivory; color: navy;}
+.buttons {grid-area: buttons; background-color: lightblue; text-align: center;}
+.ls {grid-area: ls; background-color: ivory;}
+.json {grid-area: json;}

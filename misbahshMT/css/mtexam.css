@@ -1,0 +1,35 @@
+/* MT Exam CSS */
+.gridArea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "grid01 grid01"
+    "grid02 grid02"
+    "datalist datalist"
+    "grid03 grid03"
+  ;
+  gap: 5px;
+}
+
+#grid01 {grid-area: grid01; background-color: whitesmoke;}
+#grid02 {grid-area: grid02; background-color: whitesmoke; text-align: center; margin: auto;}
+#grid03 {grid-area: grid03; background-color: seashell; text-align: center; font-size: 1.1em; }
+#grid04 {grid-area: grid04; background-color: seashell;}
+#datalist {grid-area: datalist;  background-color: lightcyan;}
+
+
+button {
+  padding: 5px;
+  background-color: darkblue;
+  color: ivory;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.misbahsh{
+  color:teal;
+  background-color:bisque;
+  text-align:center;
+  font-weight:bold;
+}

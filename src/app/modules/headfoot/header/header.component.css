@@ -1,0 +1,7 @@
+h3 {
+  color: navy;
+  background: radial-gradient(green, lightpink, mediumblue);
+  font-variant: small-caps;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}

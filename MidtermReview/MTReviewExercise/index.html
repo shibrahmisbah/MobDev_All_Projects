@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<HTML>
+
+<head>
+	<title></title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+	<link href="css/mtreview.css" rel="stylesheet">
+	<script src="js/myscript.js"></script>
+	
+<style>
+	.college {background:blue; color:white; font-size: 1.25em;}
+	.audioBorder {border: thick solid red;}
+</style>
+</head>
+
+<body onload="startup()">
+	<h2>Exam #1 Review</h2>
+	<div class="gridArea">
+		<div class="names">
+			<section id="schoolName">School: </section>			<!-- school section -->	
+			<section id="myCampus"></section>								<!-- campus section -->
+		</div>
+		
+		<div class="audios">
+			<h3>Audio Files</h3>
+			<img src="images/heart.png" width="50" >
+			<audio src="audios/heartbeat.mp3" controls></audio>
+
+			<br>
+			<img src="images/morse.png"  width="50">
+			<audio src="audios/morse.wav" controls>Morse Code</audio>
+			<br>
+		</div>
+
+		<div class="rhymes">
+			<section class="rhyme">
+				Mary had a little lamb whose fleece was white as snow
+			</section>
+			<section>
+				Little Bo Peep <img src="images/sheep.svg" width="50"> has lost her sheep
+			</section>
+			<section>
+				Twinkle Twinkle Little Star <img src="images/star.svg" width="50" alt="STAR" >
+			</section>
+		</div>
+
+		<div class="buttons">
+			<button onclick="hideCmd()">Click to Toggle (Hide/Show) section(s) with "ow" text included</button><br><br>
+			<button onclick="audioCmd()">Click to toggle a border on any audio whose source has a .wav extension using the CSS class .audioBorder</button><br><br>
+			<button onclick="letEx()">Click to pull SchoolName and display each letter in console one letter at a time</button>
+		</div>
+	
+		<!-- Local Storage -->
+
+		<div class="ls">
+			<label for="cname">Computer Make: </label>
+			<input id="cname" name="cname" type="text" value="Lenovo">
+			&nbsp;&nbsp;&nbsp;
+			<label for="ccost">Computer Cost: </label>
+			<input id="ccost" name="ccost" type="text" value="$1000">
+			<br><br>
+			<button class="ui-btn" onclick="submitRev()">Submit To Local Storage</button>
+			<button class="ui-btn" onclick="getRev()">Get Data from Local Storage</button>
+			<hr>
+			<!-- local storage output areas -->
+			<p id="makeOutput"></p>
+			<input type="text" name="cost" id="cost">
+		</div>
+
+
+		<!-- JSON -->
+		<div class="json">
+			<br><hr><br>
+			<button onclick="loadJSON()">Click to load JSON data</button>
+			
+			<h2></h2>  <!-- header info -->
+
+			<h3 style="font-style: italic;">Used Diesel Cars</h3>
+			<table>
+				<tr><th>MAKE</th><th>TYPE</th><th>COST</th><th>ENGINE</th></ht></tr>
+				<tbody id='carList'>
+
+				</tbody>
+			</table>
+			<hr>
+			<h3 style="font-style: italic;">New Cars Details</h3>
+			<ul id="details">
+
+			</ul>
+			<ul id="examOut">
+
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<HTML>
+<head lang="en">
+<!-- Include YOUR User/Login Name in the <title> tags below then proceed to instructions below -->
+	<title>misbahsh</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link href="css/mtexam.css" rel="stylesheet">
+	<script src="js/mtexamscript.js"></script>
+</head>
+
+<body onload="startup()">
+<!-- 
+	READ ALL INSTRUCTIONS BELOW CAREFULLY AND THOROUGHLY
+
+	This exam is created to show functionality; the output does not have to be mobile 
+		Don't worry about scrolling / localhost must be used
+
+	Getting Started:
+		1) Follow all COMMENTS in this file (index.html) to include your name in the <title> tags above and
+			 update the comment lines below. These are all the changes needed for this file.
+		2) Go to the mtexam.json file in the mtdata/ folder and update the JSON file with your
+			 personal information where indicated
+		3) Go to the js/mtexamscript.js file and follow the comments to complete the coding
+-->
+
+<!-- Update the following 3 comment lines below with your personal information -->
+<!-- My Name:  /Shibrah Misbah/ -->
+<!-- My Student Number:  /991593708/ -->
+<!-- My Sheridan Email: /misbahsh@sheridancollege.ca/ -->
+
+<!-- The <body> of this file is for reference when coding your application 
+			NO changes should be made to the HTML or identifiers in this file. 
+		
+		NOTE: Be sure to use the output areas indicated by the comments or marks off will apply -->
+
+<section class="gridArea">
+	<section id="grid01">
+		<div id="presidentInfo"></div>						<!-- Part #01 output area -->		
+	</section>
+
+	<section>
+		<ul id="itemlist">
+			<li title="Japanese" class="Wood"><strong>Spinner</strong>: Made in Japan and loaned to museum by Smithsonian Institution <img src="images/spinner.png" width="20"></li>
+			<li title="Japanese" id="Wood"><strong>Yo-Yo</strong>: Made in <a href="#">Japan</a> and loaned to museum by Marion Greene <q>Businesswomen of Boyes Hot Springs</q></li>
+			<li title="American" class="Cardboard"><strong>Board/Spinner</strong>: Made in America and loaned to museum by Mcloughlin Brothers</li>
+			<li title="France" id="Paper"><strong>Lithograph</strong>: Made in France and loaned to museum by <span style="color: royalblue;">Francis Macauley</span></li>
+			<li title="French" class="Bronze"><strong>Vase</strong>: Made in <a href="#">France</a> and loaned to museum by <span style="color: royalblue;">Mrs. William McKean</span></li>
+			<li title="American" id="Glass"><strong>Board/Marble</strong>: <img src="images/marbles.png" width="20">Made in America and loaned to museum by Milton Bradley <q>established in 1860</q></li>
+		</ul>
+	</section>
+
+	<section id="grid02">													<!-- Part #02 button area -->
+		<button onclick="search01()">Click to add a thick crimson border around any list item that has a <em>title</em> attribute of "Japanese"</button>
+		<button onclick="search02()">Click to change the background colour to cyan for any list item that includes an anchor tag</button>
+	</section>
+
+	<section id="grid03">									
+		<button onclick="listMuseumData()">					<!-- Part #03 button area -->
+			Click to display museum items whose cultural description is <em>French</em>
+		</button>		
+		<hr>
+		<div id="cultureOutput">										<!-- Part #03 output area -->
+
+		</div>
+	</section>
+
+</section>
+
+</body>
+</html>
+

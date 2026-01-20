@@ -1,0 +1,69 @@
+/* ------------------------------------------------------------------------- */
+
+/* For JSON retrieval */
+
+/* tsconfig.json / after "lib": [] */
+,
+"resolveJsonModule": true,
+"esModuleInterop" : true,
+"allowSyntheticDefaultImports" : true
+
+
+/* ------------------------------------------------------------------------- */
+
+<!-- To be copied into app.component.html -->
+
+<div id="card">
+  <h4></h4>
+  <div id="flexBox">
+    <mat-form-field appearance="fill" class="flex1" 
+                    style="background-color: aquamarine;">
+      <mat-label></mat-label>
+      <mat-select>
+
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="flex2"
+                    style="background-color: aquamarine;">
+      <mat-label></mat-label>
+      <mat-select>
+
+      </mat-select>  
+    </mat-form-field>
+    <mat-form-field appearance="fill" class="flex3"
+                    style="background-color: aquamarine;">
+      <mat-label></mat-label>
+      <mat-select>
+
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+
+
+/* ------------------------------------------------------------------------- */
+
+
+/* CSS for app.component.css */
+
+#card {
+  background-image: url('../assets/images/cardBack.svg');
+  text-align: center;
+}
+
+#flex {display: flex;}
+.flex1, .flex2, .flex3 {flex: 1; margin: 3px;}
+
+.output {background-color: aquamarine; padding: 5px; font-weight: bold; text-align: center;}
+
+#outid {
+  margin-left: 5%;  margin-right: 5%;
+  padding: 15px; text-align: center;
+  border-style: solid; border-width: thick;
+  font-size: 3em;  font-style: italic;}
+
+
+
+
+

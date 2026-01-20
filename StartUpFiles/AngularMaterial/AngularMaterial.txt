@@ -1,0 +1,60 @@
+
+/* 
+	Be sure you have run the ng add @angular/material from the command line 
+*/
+
+/* --------------- Adding all Angular modules ------------------------------ */
+
+/* In app/modules folder create a folder called material-ui 
+(if modules folder has not been created, create first before adding material-ui folder
+
+   	Copy the material-ui.module.ts file into this folder 
+*/
+
+
+/* In app.module.ts */
+
+import {ReactiveFormsModule} from '@angular/forms'; 
+import {MaterialModule} from './modules/material-ui/material-ui.module';
+
+/* Update imports: */
+ReactiveFormsModule, 
+MaterialModule
+/* ------------------------------------------------------------------------- */
+
+
+/* Theme must be included in styles.css
+   You can change to one of the pre-built themes different from the one
+   you originally selected when creating the new app or alter current*/
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+/* deeppurple-amber.css */
+/* indigo-pink.css */
+/* pink-bluegrey.css */
+/* purple-green.css */
+
+/* ------------------------------------------------------------------------- */
+
+
+/* If using Google Icons, copy the following <link> line at the top of the app.component.html */
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+/* In styles.css include the following */
+
+.material-symbols-sharp {
+ font-variation-settings:
+  'FILL' 0.5,   
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* Can also use +Outlined and +Rounded in place of +Sharp but must change both places */
+
+
+/* example for icon inclusion in HTML */
+
+<span class='material-symbols-sharp'>ICON NAME</span>

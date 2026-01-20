@@ -1,0 +1,96 @@
+body{
+    font-family:cursive;
+}
+
+
+.grid2 { 
+    display: grid; 
+    padding-left: 2em; 
+    width: 100%; 
+    background-color:rgba(255,255,255,0.7);
+    position:relative;
+    grid-template-areas: 'b1 b1 b1 b1'
+                          'hdr hdr hdr hdr'
+                          'h1 h1 h1 h1'
+                          's1 s1 s1 s1'
+                          'f1 f1 f1 f1';
+    }
+
+header { 
+    grid-area: hdr; 
+    text-align:center;
+    color:brown;
+    text-decoration:underline;
+    font-family:monospace;
+
+
+}
+
+ 
+h3{
+    margin:-5px;
+    font-size:1.2rem;
+}
+
+
+.s1header{
+    text-align:center;
+    color:white;
+}
+
+#bookProperties { 
+    grid-area: s1;
+    background-color:burlywood;
+    text-align:center;
+    white-space: nowrap;
+
+}
+
+#bookData { 
+    grid-area: s2;
+    background-color:burlywood;
+    text-align:center;
+    white-space: nowrap;
+
+}
+
+.button{
+    grid-area:b1;
+}
+
+.listHeader{
+
+    grid-area: h1;
+    text-align:center;
+    text-decoration:underline;
+
+}
+   
+
+.footer { 
+    grid-area: f1;
+    text-align:center;
+    font-size:1.2rem;
+    color:black;
+    margin-left:-20px;
+    font-family:monospace;
+ }  
+
+
+
+button{
+
+    margin:30px;
+}
+
+p {
+    display: inline-block;
+}
+
+
+.home{
+    margin:2px;
+    border-radius: 1em;
+    font-family:monospace;
+
+}

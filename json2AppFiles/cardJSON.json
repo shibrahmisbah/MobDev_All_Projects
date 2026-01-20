@@ -1,0 +1,30 @@
+{
+	"personal": 
+		{
+			"greeting" : "Thinking of You...",
+			"pic" : "",
+			"signature" : "",
+			"myemail" : ""
+		},
+	"sentiment" : [
+			{ "txt" : "Sending you a smile!", "pic" : "smile.svg" },
+			{ "txt" : "So glad you are my friend!", "pic" : "friend.jpg"  },
+			{ "txt" : "Flowers to make you feel better!", "pic" : "flowers.jpg"  },
+			{ "txt" : "Enjoy the warmth of the sun!", "pic" : "sun.jpg"  },
+			{ "txt" : "Stay Positive!", "pic" : "positive.png" },			
+			{ "txt" : "Keep Laughing!", "pic" : "laugh.png"  },			
+			{ "txt" : "A Digital Hug!", "pic" : "hug.svg" }		
+		],
+	"borderColour" : [
+		{ "colour" : "pink"},
+		{ "colour" : "palegreen"},
+		{ "colour" : "plum"},
+		{ "colour" : "skyblue"},
+		{ "colour" : "lemonchiffon"},
+		{ "colour" : "violet"}		
+	],
+	"borderEdge" : [
+		{ "edge" : "square"},
+		{ "edge" : "round"}		
+	]
+}

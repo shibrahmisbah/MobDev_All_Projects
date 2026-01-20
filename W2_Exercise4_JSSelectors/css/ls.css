@@ -1,0 +1,23 @@
+/* M02 Selectors - LS Examples */
+.gridArea {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "goback"
+    "paragraphs"
+    "selections"
+    "outputArea"
+  ;
+  place-items: center;
+  gap: 5px;
+}
+
+#selections {grid-area: selections; display: flex; background-color: lightgoldenrodyellow; width: 100%;}
+#selections button {flex: 1; margin: 2px; width: 125px; height: 50px; color: navy;}
+#paragraphs {grid-area: paragraphs; background-color: lightblue; width: 100%;}
+#outputArea {grid-area: outputArea; background-color: bisque; width: 100%;}
+#goback{grid-area: goback;}
+
+.linkCSS { border-radius: 50px; background-color: navy; 
+  text-decoration: none; color: white; padding: 5px;}

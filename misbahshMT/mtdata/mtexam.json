@@ -1,0 +1,92 @@
+{
+  "museumPresident" :
+  {
+     "firstData" : "Shibrah",
+     "lastData" : "Misbah",
+     "emailData" : "misbahsh@sheridancollege.ca",
+     "idData" : "991593708"		
+  },
+	"MuseumItems": 
+  [
+		{
+			 "category": "154811",
+			 "description": "Turned wood; painted.  Shape and design to simulate berry or fruit",
+			 "cultureDesc": "Japanese",
+			 "materialType": "Wood",
+			 "loanedBy": "Gift of Smithsonian Institution, 1971",
+			 "objectName": "Spinner",
+			 "image": "spinner.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "315995",
+			 "description": "Painted disc with painted concentric faces.  Disc are not tapered.  Imprinted JAPAN",
+			 "cultureDesc": "Japanese",
+			 "materialType": "Wood",
+			 "loanedBy": "Gift of Marion Greene, 1973",
+			 "objectName": "Yo-Yo",
+			 "image": "yoyo.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "22499",
+			 "description": "Fighting Pig Puzzle - piece of cardboard to which is attached a string holding 2 balls",
+			 "cultureDesc": "American",
+			 "materialType": "Cardboard",
+			 "loanedBy": "Received from various sources, pre-1929",
+			 "objectName": "Puzzle",
+			 "image": "pigpuzzle.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "533852",
+			 "description": "Board, spinner, 63 counters in 4 colors (1 white missing). Men missing (B) Game pieces & spinner",
+			 "cultureDesc": "American",
+			 "materialType": "Cardboard",
+			 "loanedBy": "Gift of McLoughlin Brothers, 1893",
+			 "objectName": "Board Game",
+			 "image": "spinnerBoard.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "18643",
+			 "description": "12 lithographed cards with pictures of children's games.  Fused to 16555",
+			 "cultureDesc": "French",
+			 "materialType": "Paper",
+			 "loanedBy": "Gift of Francis C. Macauley, 1893",
+			 "objectName": "Cards",
+			 "image": "lithograph.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "160242",
+			 "description": "One Deck of Piquet play cards (32 total). French Suits: 4 suits; spades, clubs, hearts, diamonds. ",
+			 "cultureDesc": "French",
+			 "materialType": "Paper",
+			 "loanedBy": "Gift of Francis C. Macauley, 1891",
+			 "objectName": "Playing Card Deck",
+			 "image": "piquet.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "293020",
+			 "description": "Board with holes into which marble is to be rolled.  Self contained in box.  Holes numbered 0,5,1 and 50 (9 holes).  Marble",
+			 "cultureDesc": "American",
+			 "materialType": "Glass",
+			 "loanedBy": "Purchased from Milton Bradley Company, 1893",
+			 "objectName": "Board Game",
+			 "image": "marbles.png",
+			 "section": "Historic"
+		},
+		{
+			 "category": "113026",
+			 "description": "Vase with Classical Figures in Relief",
+			 "cultureDesc": "French",
+			 "materialType": "Bronze",
+			 "loanedBy": "Gift of Mrs. William V. McKean, 1900",
+			 "objectName": "Vase",
+			 "image": "vase.png",
+			 "section": "Historic"
+		}
+	]
+}
